@@ -1,18 +1,121 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=">
+	<title>first html5 page</title>
+	<!-- 
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/libs/modernizr-2.5.3.min.js">
+    -->
+	<style type="text/css">
+		body {
+			margin: 0 auto;
+			width: 900px;
+			background: #fff;
+			font: 100%/1.4 helvetica, arial, sans-serif;
+		}
+		
+		header {
+			background: #ccc;
+			padding: 20px;
+		}
+		
+		header h1 {
+			margin: 0;
+		}
+		
+		nav {
+			float: left;
+			width: 900px;
+			background: #333;
+		}
+		
+		nav ul {
+			margin: 0;
+			padding: 0;
+		}
+		
+		nav ul li {
+			list-style-type: none;
+			display: inline;
+		}
+		
+		nav li a {
+			display: block;
+			float: left;
+			padding: 5px 10px;
+			color: #fff;
+			text-decoration: none;
+			border-right: 1px solid #fff;
+		}
+		
+		article {
+			clear: left;
+			float: left;
+			width: 560px;
+			padding: 20px 0;
+			margin: 0 0 0 30px;
+			display: inline;
+		}
+		
+		article h2 {
+			margin: 0;
+		}
+		
+		aside {
+			float: right;
+			width: 240px;
+			padding: 20px 0;
+			margin: 0 20px 0 0;
+			display: inline;
+		}
+		
+		aside h3 {
+			margin: 0;
+		}
+		
+		footer {
+			clear: both;
+			background: #ccc;
+			text-align: right;
+			padding: 20px;
+			height: 1%;
+		}
+	</style>
+	<script type="text/javascript">
+	</script>
+</head>
 
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+<body>
+	<!-- 头部 -->
+	<header>
+		<h1>头部</h1>
+	</header>
+	<!-- 导航 -->
+	<nav>
+		<ul>
+			<li id="home">Home</li>
+			<li id="about">About</li>
+			<li id="contact">Contact</li>
+		</ul>
+	</nav>
+	<!-- 导航 -->
+	<section>
+		<h1>My Article</h1>
+		<article>
+			<p>this is first article</p>
+			<div id="second_item">this is second article,I'm
+				<a href="http://www.cnlbogs.com/hongten">Hongten</a>
+				</p>
+				<p>this is third article</p>
+				<p>this is 4's article</p>
+		</article>
+	</section>
+	<aside></aside>
+	<!-- 尾部 -->
+	<footer class="footer1">
+		<p>
+			<a href="mailto:hongtenzone@foxmail.com">hongtenzone@foxmail.com</a> ||
+			<a href="http://www.cnlbogs.com/hongten">Hongten</a>
+		</p>
+	</footer>
+</body>
